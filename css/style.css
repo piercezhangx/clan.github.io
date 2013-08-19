@@ -85,9 +85,9 @@ pre {
 	word-wrap: break-word; /* IE */
 	padding: 5px 12px;
 }
-pre code { border: 0px !important; padding: 0; color: #000; font-size: 1em; font-family: Consolas; }
+pre code { border: 0px !important; padding: 0; color: #000; font-size: 1em; font-family: Consolas, "微软雅黑"; }
 code { padding: 0 3px 0 3px; }
-pre { font-family: Consolas; }
+pre { font-family: Consolas, "微软雅黑"; }
 
 b, strong { font-weight: bold; }
 
