@@ -169,7 +169,7 @@ One-time passcodes （[OTP](https://tools.ietf.org/html/rfc4226) 或者
 [TOTP](https://tools.ietf.org/html/rfc6238)） 也许是一种选择。
 [Google Authenticator](http://code.google.com/p/google-authenticator)
 提供了一个很好的实现方案，包括移动客户端。我会在
-<a href="http://blog.knownsec.com/2012/05/ssh-otp-%E8%AE%A4%E8%AF%81/">另一篇</a> blog 里来简单介绍如何实现。
+[另一篇]({% post_url 2012-05-16-ssh-otpauth %}) blog 里来简单介绍如何实现。
 
 P.S. 由于系统配置以及软件版本等的不同，本文中提到的配置并不能覆盖所有的环境。
 准确的配置需要参考官方文档并结合实际的系统进行调整。
