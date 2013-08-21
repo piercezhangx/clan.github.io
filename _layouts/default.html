@@ -8,13 +8,9 @@
 		{% include ga.js %}
 	</head>
 	<body>
-		<div id="container">
-			<div class="clearfix"></div>
-			<header><h2>{{ page.title }}</h2></header>
-			<div>
-				{{ content }}
-			</div>
-			{% include disqus.js %}
-		</div>
+		<div class="clearfix"></div>
+		<header><h2>{{ page.title }}</h2></header>
+		<div>{{ content }}</div>
+		{% include disqus.js %}
 	</body>
 </html>
