@@ -4,7 +4,7 @@ title: demo of rrdtool
 ---
 rrdtool 的演示代码
 
-<pre>
+{% highlight bash linenos %}
 #!/bin/sh
 
 rm -fr count.rrd gauge.rrd
@@ -32,5 +32,6 @@ rrdtool graph rrdtool.png -i -M -s ${start} -e $((start + 3600)) \
     CDEF:gauge=rgauge,10,/ \
     LINE1:count#00ff00:"count" \
     LINE1:gauge#0000ff:"gauge"
-</pre>
+{% endhighlight %}
+
 {{ page.date | date_to_string }}
